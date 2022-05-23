@@ -1,0 +1,165 @@
+:root {
+    --bg-aside-bar: #0B1C48;
+    --bg-main: #FFFFFF;
+    --bg-resalt-subtitle: #710117;
+    --color-complementy: #ECD5BB;
+
+    --font-principle: "Roboto";
+    --font-weight-title: 500;
+    --font-weight-subtitle: 400;
+    --font-weight-paragraph: 100;
+
+    --font-principle-alternative: "Open Sans";
+    --font-weight-subtitle-alternative: 400;
+    --font-weight-paragraph-alternative: 300;
+    --font-weight-title-alternative: 600;
+}
+
+* {
+    box-sizing: border-box;
+    background-color: var(--bg-main);
+    font-family: var(--font-principle), var(--font-principle-alternative), 'arial';
+}
+
+body {
+    position: relative;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main {
+    position: inherit;
+    top: -40px;
+    margin: 0;
+    margin-left: 50px;
+    width: 75%;
+    display: inline-block;
+    font-family: var(--font-principle);
+}
+
+.main__full-name {
+    display: inline-block;
+    width: 80%;
+    margin: 0;
+    font-weight: var(--font-weight-title);
+    font-size: 80px;
+    letter-spacing: 1px;
+}
+
+
+.paragraph{
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 0;
+    width: 95%;
+    font-weight: var(--font-weight-paragraph);
+    font-size: 25px;
+}
+
+.subtitle{
+    font-weight: var(--font-weight-subtitle);
+    font-size: 25px;
+}
+
+.main__list{
+    list-style-type: none;
+    font-weight: var(--font-weight-paragraph);
+    font-size: 20px;
+}
+
+.logo{
+    text-align: center;
+
+}
+
+.aside-bar {
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 100%;
+    width: 20%;
+    height: 100%;
+    background-color: var(--bg-aside-bar);
+    display: inline-block;
+}
+
+.aside-bar__header {
+    background-color: inherit;
+    text-align: center;
+}
+
+.aside-bar__header--image {
+    margin-top: 20px;
+    width: 150px;
+}
+
+.aside-bar__field--subtitle {
+    margin: 25px 0 0px;
+    padding: 13px;
+    display: block;
+    color: #FFFFFF;
+    background-color: var(--bg-resalt-subtitle);
+    font-weight: var(--font-weight-subtitle), var(--font-weight-subtitle-alternative);
+    font-size: 18px;
+}
+
+.aside-bar__education {
+    background-color: inherit;
+}
+
+.aside-bar__education--field {
+    margin: 25px 5px 0;
+    padding-left: 15px;
+    background-color: inherit;
+    color: #FFFFFF;
+    font-weight: var(--font-weight-paragraph);
+    font-size: 18px;
+}
+
+.aside-bar__education--name-section {
+    display: block;
+    background-color: inherit;
+    color: #FFFFFF;
+    font-weight: var(--font-weight-subtitle);
+    font-style: normal;
+    font-size: 17px;
+}
+
+.aside-bar__skills {
+    background-color: inherit;
+}
+
+.aside-bar__skills ul {
+    background-color: inherit;
+    list-style: none;
+    list-style: disc;
+}
+
+.aside-bar__skills ul>li {
+    background-color: inherit;
+    color: #FFFFFF;
+}
+
+
+.aside-bar__logo-content {
+    margin-top: 100px;
+    display: block;
+    background-color: inherit;
+    text-align: center;
+}
+
+.aside-bar__logo-content a {
+    background-color: inherit;
+    text-decoration-line: none;
+
+}
+
+.icon-github {
+    font-size: 35px;
+    background-color: inherit;
+    color: var(--color-complementy);
+}
+
+.main__Logo-SpaceShip {
+    width: 150px;
+}
